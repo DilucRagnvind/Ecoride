@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    background-color: rgb(240, 249, 246);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+
+header, footer{
+    background-color: rgb(121, 236, 157);
+    height: 8%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 15%;
+    text-align: center;
+    padding: 1em;
+}
+header li{
+    display: inline;
+    margin-right:0px;
+    text-align: right;
+    justify-content: right;
+    right: 0%;
+}
+header a{
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    color: rgb(43, 14, 71);
+    display: flexbox;
+    
+
+}
+header a:hover{
+    background-color: rgb(89, 215, 129);
+
+}
+
+a{text-decoration: none;
+
+}
+footer ul{
+    display: block;
+    text-decoration: none;
+}
+footer li{
+    text-decoration: none;
+}
+.formDiv1{
+    background-color: rgb(221, 254, 231);
+    display: inline-block;
+    width: 40%;
+    flex: auto;
+    justify-content: center;
+    border-width: 5px;
+    border-color: rgb(22, 104, 48);
+    border-radius:10px;
+    padding: 20px ;
+    margin-top:10px;
+}
+button, .btn{
+    background-color: rgb(121, 236, 157);
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-color: rgb(22, 104, 48);
+}
+.loginDiv{
+    margin-right: 10px;
+}
