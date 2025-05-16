@@ -19,11 +19,7 @@ espace perso
       <div class="loginDiv"><a href='login.php'><button>Se connecter</button></a> 
       <a href='register.php'><button>S'inscrire</button></a>  </div>
 
-
-
- 
-
-    </main>
+</main>
 
 </body>
 </html>
